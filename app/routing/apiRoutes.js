@@ -1,14 +1,10 @@
-// ===============================================================================
 // LOAD DATA
 // We are linking our routes to a series of "data" sources.
 // These data sources hold arrays of information on all possible friends
-// ===============================================================================
 
 var friends = require("../data/friends");
 
-// ===============================================================================
 // ROUTING
-// ===============================================================================
 
 module.exports = function(app) {
   // API GET Requests
